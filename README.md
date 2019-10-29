@@ -7,3 +7,5 @@ won't you say you love me too
 Jobe udlala kamndandi
 Jobe suk'endleni
 Jobe ......
+
+LA LA LA LA LA
