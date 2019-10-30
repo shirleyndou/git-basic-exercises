@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 I love you
 you love me\
 we're a happy family
@@ -9,3 +10,6 @@ Jobe suk'endleni
 Jobe ......
 
 LA LA LA LA LA
+=======
+booya
+>>>>>>> history

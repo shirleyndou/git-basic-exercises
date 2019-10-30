@@ -1,0 +1,284 @@
+    1  ls
+    2  ls -lrh
+    3  ls/
+    4  ls /
+    5  ls /etc/per1
+    6  ls /etc/perl
+    7  pwd
+    8  mkdir
+    9  mkdir learning_unix
+   10  ls
+   11  cd
+   12  cd learning_unix
+   13  mkdir outer
+   14  cd outer
+   15  cd
+   16  ls
+   17  mkdir Business_priceList
+   18  ls
+   19  pwd
+   20  cd /home/shirley/Business_priceList
+   21  cd learning_unix
+   22  cd
+   23  cd learning_unix
+   24  cd ..
+   25  cd learning_unix/
+   26  cd home/
+   27  cd ..
+   28  cd ../..
+   29  cd /home/shirley/learning_unix
+   30  cd ..
+   31  cd /home/shirley/learning_unix
+   32  cd ../..
+   33  cd /tmp
+   34  cd /home/shirley/learning_unix
+   35  cd /Business_priceList
+   36  cd /outer
+   37  cd ../../../Business_priceList
+   38  cd ../../../tmp
+   39  clear
+   40  cd
+   41  clear
+   42  ls
+   43  pwd
+   44  mkdir workspace
+   45  cd workspace
+   46  ls
+   47  touch README.md
+   48  touch README
+   49  ls
+   50  cp README.md CHANGELOG.md
+   51  touch excersise.md
+   52  mv /home/Desktop/ excersise.md
+   53  mv /home/shirley/Desktop/ excersise.md
+   54  mv /home/shirley/Desktop/ excersise.md 
+   55  mv ~/home/shirley/Desktop/ excersise.md 
+   56  clear
+   57  ls
+   58  mv excersise.md /tmp
+   59  ls
+   60  cd /tmp
+   61  ls
+   62  clear
+   63  ls
+   64  ls -al
+   65  ls
+   66  cd ~
+   67  pwd
+   68  rm /tmp/excersise.md 
+   69  ls
+   70  cd /tmp
+   71  ls
+   72  cd /workspace
+   73  cd ..
+   74  cd /workspace
+   75  cd /home/shirley/workspace
+   76  ls
+   77  cd /tmp
+   78  ls
+   79  touch excersise.md
+   80  ls
+   81  rm excersise.md
+   82  ls
+   83  clear
+   84  ~cd
+   85  cd /home 
+   86  cd
+   87  cd /home/shirley/workspace
+   88  clear
+   89  cd
+   90  touch umuzi.md
+   91  ;s
+   92  ls
+   93  touch recruits.md
+   94  ls
+   95  touch cohort.md
+   96  ls
+   97  mv excersise.md /tmp                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+   98  ls
+   99  nano umuzi.md
+  100  cat umuzi.md
+  101  nano cohort.md
+  102  cat cohort.md
+  103  nano recruits.md
+  104  cat recruits.md
+  105  touch summary.md
+  106  ls
+  107  cat umuzi.md recruits.md cohort.md > summary.md
+  108  ls
+  109  cd /home/shirley/summary.md
+  110  cat summary.md
+  111  cat >> summary.md
+  112  ls
+  113  cat summary.md
+  114  nano summary.md
+  115  cat summary.md
+  116  locate umuzi.md
+  117  locate umuzi
+  118  locate .pdf
+  119  locate cohort.md
+  120  locate outer
+  121  locate workspace
+  122  locate README
+  123  locate README.md
+  124  mv umuzi.md workspace
+  125  cd /home/shirley/workspace
+  126  ls
+  127  cd
+  128  locate umuzi.md
+  129  cd /home/shirley/Documents/
+  130  touch pad.md
+  131  ls
+  132  cd /home/shirley/Desktop/
+  133  mkdir work
+  134  ls
+  135  find -name umuzi.md
+  136  find umuzi.md
+  137  locate search.md
+  138  touch search.md
+  139  find -name search.md
+  140  find -name umuzi.md /home/shirley/ search.md
+  141  find -name umuzi.md > search.md
+  142  cat > search.md
+  143  find /home/shirley -type f _name umuzi.md > search.md
+  144  find /home/shirley -type f -name umuzi.md > search.md
+  145  pwd
+  146  cp /home/shirley/Desktop/
+  147  cd /home/shirley/Desktop/
+  148  cp pad.md pad_copy.md
+  149  cd /home/shirley/Documents/
+  150  cp pad.md /Desktop
+  151  cp pad.md Desktop pad_copy.md
+  152  cp pad.md Desktop
+  153  cp pad.md pad_copy.md /Desktop
+  154  cp pad.md pad_copy.md /home/shirley/Desktop
+  155  cp pad.md pad_copy.md
+  156  mv pad_copy.md /Desktop
+  157  mv pad_copy.md /home/shirley/Desktop
+  158  cd /home/shirley/Desktop
+  159  la
+  160  ls
+  161  locate updatedb
+  162  cd -
+  163  locate pad_copy.md
+  164  cd /home/shirley/Documents
+  165  locate pad_copy.md
+  166  find / -type f -name "*.pdf"
+  167  find / -type f -name "*.pdf" > /home/shirley/Desktop/work
+  168  find / -type f -name "*.pdf" > /work
+  169  find / -type f -name "*.pdf" > work
+  170  locate pad_copy.md
+  171  locate cohort.md
+  172  locate updatedb
+  173  find ~ -type f -name "*.pdf"
+  174  find -type f -name "*.pdf"
+  175  cd
+  176  find ~ -type f -name "*.pdf"
+  177  find / -type f -name "*.pdf"
+  178  find / -type f -name "*.pdf" > workspace
+  179  find . -type f -name "*.pdf"
+  180  find . -type f -name "*.pdf" > workspace
+  181  find ~ -type f -name "*.pdf"
+  182  find ~ -type f -name "*.pdf" > Documents
+  183  find . -type f -name "*.pdf" > /home/shirley/Desktop/workspace
+  184  cd /home/shirley/Desktop/workspace
+  185  cd /home/shirley/Desktop/
+  186  cd /home/shirley/Desktop/workspace/
+  187  ls
+  188  find ~ -type f -name "*.pdf" > work
+  189  find ~ -type f -name "*.pdf" > /home/shirley/Desktop/work/
+  190  find ~ -type f -name "*.pdf" > /home/shirley/Desktop/work
+  191  cd
+  192  find ~ -type f -name "*.pdf" > /home/shirley/Desktop/work
+  193  find ~ -type f -name "*.pdf" > recruits.md
+  194  cat recruits.md
+  195  find -mtime -1 -print
+  196  find -mtime -1 -ls
+  197  clear
+  198  mkdir git-basic-exercises
+  199  cd /home/shirley/git-basic-exercises/
+  200  ls -a
+  201  ls
+  202  git init
+  203  ls -a
+  204  git status
+  205  touch README.md
+  206  ls -a
+  207  git status
+  208  git log
+  209  git add README.md
+  210  ls
+  211  git status
+  212  cd /home/shirley/git-basic-exercises/
+  213  ls -a
+  214  git status
+  215  git rm --cached README.md
+  216  git status
+  217  git add README.md
+  218  git status
+  219  git commit -m "initial commit"
+  220  git config --global user.email "shirley.ndou@umuzi.org"
+  221  git config --global user.name "shirley"
+  222  git commit -m "initial commit"
+  223  git log
+  224  q
+  225  exit
+  226  nano README.md
+  227  cat README.md
+  228  git stats
+  229  git status
+  230  cd /home/shirley/git-basic-exercises/
+  231  git status
+  232  nano README.md
+  233  cat README.md
+  234  git status
+  235  git add README.md
+  236  git status
+  237  git commit -m "second commit"
+  238  git log
+  239  nano README.md 
+  240  cat README.md 
+  241  git status
+  242  git add README.md 
+  243  git status
+  244  git commit -m "third commit"
+  245  git log
+  246  q
+  247  git checkout commit 4063dfbeb174af4fd09b282b6f1ce76bdd610c41
+  248  git checkout 4063dfbeb174af4fd09b282b6f1ce76bdd610c41
+  249  git branch
+  250  cat README.md 
+  251  nano README.md 
+  252  git checkout master
+  253  cat README.md 
+  254  git branch
+  255  git branch milkshake-flavours
+  256  git branch
+  257  git checkout milkshake-flavours 
+  258  git branch 
+  259  nano
+  260  cat milkshakes.md 
+  261  git status
+  262  git add milkshakes.md 
+  263  git status
+  264  git commit -m "added initial flavours"
+  265  git log
+  266  git branch master
+  267  git checkout master
+  268  git branch
+  269  cat milkshakes.md
+  270  cat milkshake-flavours
+  271  git checkout
+  272  git checkout master
+  273  git checkout 2edb622290a5e138bded2312eae05f38faf5d227
+  274  git branch
+  275  git branch master
+  276  git checkout master
+  277  cat milkshake-flavours
+  278  cat milkshakes.md
+  279  clear
+  280  git branch
+  281  git branch history
+  282  git checkout history
+  283  git log
+  284  history > history.txt
